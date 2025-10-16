@@ -8,6 +8,7 @@ const server = http.createServer( (req, res) => {
 	console.log("req.headers : " + JSON.stringify(req.headers));
 	//process.exit(); // 서버를 종료한다.
 	
+	//commit test
 
 	//응답의 설명서(헤더)를 작성하는 도구
   res.setHeader('Content-Type', 'text/html'); //응답 헤더 설정
